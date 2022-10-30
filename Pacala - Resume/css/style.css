@@ -1,0 +1,119 @@
+body{
+	font-family: Arial;
+	margin:0;
+	padding:20px;
+	background-color: #bfbaba;
+	background-image: url("dark.jpg");
+}
+*{
+	box-sizing: border-box;
+}
+.row:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+header{
+	background-color: #191e26;
+	padding:30px;
+	
+
+
+}
+header h1{
+	text-align: center;
+	font-size:60px;
+	color:#000000;
+	margin:1.5 0px;
+}
+
+h2{
+	color:#000000;
+margin:1.5 0px;	
+}
+.left-column{
+float: left;
+width: 75%;	
+}
+
+.right-column{
+ width: 25%;
+ float: right;
+ padding-left:20px;
+}
+.meb1 {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.card{
+	padding: 20px;
+	background-color: #191e26;
+ 	margin-top:20px;
+ 	color: #f1f1f1;
+}
+
+.card img{
+	width: 100%;
+}
+.h3h3{
+	color: #f1f1f1
+}
+
+
+.right-column .card img{
+	margin-bottom: 10px;
+}
+.head{
+	color: #fff;
+
+}
+.h2{
+	color:#f1f1f1;
+}
+.hdr{
+	background-image: url('dark.jpg');
+	background-size: cover;
+		background-attachment: fixed;
+  		background-position: center;
+ 		background-repeat: no-repeat;
+}
+.h5{
+	color: #e4ede6;
+}
+.htwo{
+	color: #f1f1f1
+}
+p{
+	color: #f1f1f1;
+}
+.card:hover .meb{
+	opacity: 0.3;
+	background-image: url("imgi.jpg");
+}
+}
+.card:hover .game{
+	opacity: 0.5
+}
+
+footer{
+	background-color: #dddddd;
+	padding: 20px;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 12px;
+	float: left;
+
+}
+
+/*responsive */
+
+@media(max-width:800px){
+	.left-column,.right-column{
+    width: 100%;
+    padding: 0px;
+	}
+}
+
